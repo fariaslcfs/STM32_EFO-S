@@ -1,0 +1,27 @@
+17:07:28 **** Incremental Build of configuration Debug for project PWM_Delay ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:157:49: warning: pointer targets in passing argument 1 of 'CDC_Transmit_FS' differ in signedness [-Wpointer-sign]
+  157 |                                 CDC_Transmit_FS(buffer, sizeof(buffer));
+      |                                                 ^~~~~~
+      |                                                 |
+      |                                                 char *
+../Core/Src/main.c:99:41: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+   99 | extern uint8_t CDC_Transmit_FS(uint8_t *Buf, uint16_t Len);
+      |                                ~~~~~~~~~^~~
+arm-none-eabi-gcc -o "PWM_Delay.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\fariaslcfs\STM32CubeIDE\workspace_1.14.1\PWM_Delay\STM32F411CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PWM_Delay.map" -Wl,--gc-sections -static -u_printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.14.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: warning: PWM_Delay.elf has a LOAD segment with RWX permissions
+Finished building target: PWM_Delay.elf
+ 
+arm-none-eabi-size  PWM_Delay.elf 
+arm-none-eabi-objdump -h -S PWM_Delay.elf  > "PWM_Delay.list"
+   text	   data	    bss	    dec	    hex	filename
+  52780	    736	   9256	  62772	   f534	PWM_Delay.elf
+Finished building: default.size.stdout
+ 
+Finished building: PWM_Delay.list
+ 
+
+17:07:30 Build Finished. 0 errors, 2 warnings. (took 1s.748ms)
+

@@ -1,0 +1,10 @@
+17:09:07 **** Incremental Build of configuration Debug for project ModoADCSincrono ****
+make -j4 all 
+arm-none-eabi-size  ModoADCSincrono.elf 
+   text	   data	    bss	    dec	    hex	filename
+  52308	    736	   9256	  62300	   f35c	ModoADCSincrono.elf
+Finished building: default.size.stdout
+ 
+
+17:09:07 Build Finished. 0 errors, 0 warnings. (took 573ms)
+

@@ -1,0 +1,1519 @@
+2024-03-25 10:11:46,069 [INFO] MainUpdater:2873 - connection check result : 10
+2024-03-25 10:11:46,184 [INFO] McuFinderGlobals:76 - Set McuFinderConnectedMode to true
+2024-03-25 10:11:46,184 [INFO] MultiScanPanel:200 - Auto-refresh data requested => check proxy status ongoing
+2024-03-25 10:11:46,184 [INFO] FinderPluginLoader:95 - Searching for filters in installed packs
+2024-03-25 10:11:47,004 [INFO] LoadUrlFilesThread:185 - End of LoadServerUrlFiles without Thread
+2024-03-25 10:11:47,004 [INFO] DetailPanel:341 - Set advertising image to C:/Users/ACER/STM32Cube/Repository/\en.prom-stm32wl3-mcu-finder.jpg
+2024-03-25 10:12:26,548 [INFO] MainUpdater:2873 - connection check result : 10
+2024-03-25 10:12:26,548 [INFO] MainUpdater:2873 - connection check result : 10
+2024-03-25 10:12:26,638 [INFO] MicroXplorer:468 - Change Database Path : 
+2024-03-25 10:12:26,638 [INFO] MicroXplorer:498 - Change Database Version : DB.6.0.100
+2024-03-25 10:12:26,655 [ERROR] ProjectManagerView:394 - 
+java.lang.NullPointerException: Cannot invoke "javax.swing.JTextField.getText()" because the return value of "java.util.List.get(int)" is null
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab$10.caretUpdate(ProjectChoiceTab.java:2493) ~[filemanager.jar:?]
+	at javax.swing.text.JTextComponent.fireCaretUpdate(JTextComponent.java:412) ~[?:?]
+	at javax.swing.text.JTextComponent$MutableCaretEvent.fire(JTextComponent.java:4491) ~[?:?]
+	at javax.swing.text.JTextComponent$MutableCaretEvent.stateChanged(JTextComponent.java:4513) ~[?:?]
+	at javax.swing.text.DefaultCaret.fireStateChanged(DefaultCaret.java:842) ~[?:?]
+	at javax.swing.text.DefaultCaret.changeCaretPosition(DefaultCaret.java:1313) ~[?:?]
+	at javax.swing.text.DefaultCaret.handleSetDot(DefaultCaret.java:1212) ~[?:?]
+	at javax.swing.text.DefaultCaret.setDot(DefaultCaret.java:1193) ~[?:?]
+	at javax.swing.text.DefaultCaret$Handler.insertUpdate(DefaultCaret.java:1789) ~[?:?]
+	at javax.swing.text.AbstractDocument.fireInsertUpdate(AbstractDocument.java:226) ~[?:?]
+	at javax.swing.text.AbstractDocument.handleInsertString(AbstractDocument.java:780) ~[?:?]
+	at javax.swing.text.AbstractDocument.insertString(AbstractDocument.java:739) ~[?:?]
+	at javax.swing.text.PlainDocument.insertString(PlainDocument.java:131) ~[?:?]
+	at javax.swing.text.AbstractDocument.replace(AbstractDocument.java:698) ~[?:?]
+	at javax.swing.text.JTextComponent.setText(JTextComponent.java:1729) ~[?:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab.createHeapStackFields(ProjectChoiceTab.java:933) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab.buildLinkSettingsPanel(ProjectChoiceTab.java:3426) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab.defineWindowsFields(ProjectChoiceTab.java:1813) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab.updateSettings(ProjectChoiceTab.java:533) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectSettingsPanel.UpdateDialog(ProjectSettingsPanel.java:244) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.ProjectManagerView.propertyChange(ProjectManagerView.java:391) ~[filemanager.jar:?]
+	at java.beans.PropertyChangeSupport.fire(PropertyChangeSupport.java:343) ~[?:?]
+	at java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:335) ~[?:?]
+	at java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:268) ~[?:?]
+	at com.st.microxplorer.util.MXPropertyChangeSupport.firePropertyChange(MXPropertyChangeSupport.java:54) ~[STM32CubeMX.jar:?]
+	at com.st.microxplorer.mxsystem.MxSystem.closeConfig(MxSystem.java:900) ~[STM32CubeMX.jar:?]
+	at com.st.microxplorer.maingui.MainPanel.closeConfig(MainPanel.java:776) ~[STM32CubeMX.jar:?]
+	at com.st.microxplorer.plugins.filemanager.engine.OpenFileManager.loadConfigurationFile(OpenFileManager.java:245) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.filemanager.engine.MainFileManager.userLoadConfig(MainFileManager.java:290) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.filemanager.FileManagerView.getSpecificTask(FileManagerView.java:247) ~[filemanager.jar:?]
+	at com.st.stm32cube.common.mx.editor.CubeMxEditor.getMxTabbedPaneInstance(CubeMxEditor.java:1184) ~[com.st.stm32cube.common.mx_6.10.0.202311202037/:?]
+	at com.st.stm32cube.common.mx.editor.CubeMxEditor$12$1.createSwingComponent(CubeMxEditor.java:1065) ~[com.st.stm32cube.common.mx_6.10.0.202311202037/:?]
+	at com.st.stm32cube.common.mx.oss.core.awtswtbridge.EmbeddedSwingComposite.doComponentCreation(EmbeddedSwingComposite.java:492) ~[com.st.stm32cube.common.mx.oss_6.10.0.202311202037/:?]
+	at com.st.stm32cube.common.mx.oss.core.awtswtbridge.EmbeddedSwingComposite$4.run(EmbeddedSwingComposite.java:291) ~[com.st.stm32cube.common.mx.oss_6.10.0.202311202037/:?]
+	at com.st.stm32cube.common.mx.oss.core.awtswtbridge.AwtEnvironment$2.run(AwtEnvironment.java:166) ~[com.st.stm32cube.common.mx.oss_6.10.0.202311202037/:?]
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318) ~[?:?]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:720) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:714) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:399) ~[?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86) ~[?:?]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:742) ~[?:?]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) ~[?:?]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:90) ~[?:?]
+2024-03-25 10:12:26,657 [WARN] ThirdParty:871 - waiting for thirdparty lock release [close project]
+2024-03-25 10:12:26,657 [INFO] ThirdParty:873 - entering critical section [close project]
+2024-03-25 10:12:26,657 [INFO] ThirdParty:883 - exiting critical section [close project]
+2024-03-25 10:12:26,658 [INFO] PinOutPanel:1499 - setPackage(No Configuration,No Configuration)
+2024-03-25 10:12:26,661 [WARN] IpParametersView:151 - Warning: This peripheral hasn't parameters
+2024-03-25 10:12:26,665 [WARN] MainPanel:272 - <html><b><center>Warning: This peripheral has no parameters to be configured<br></b></html>
+2024-03-25 10:12:26,668 [INFO] UtilMem:75 - Begin LoadConfig() Used Memory: 842882208 Bytes (1073741824)
+2024-03-25 10:12:26,669 [INFO] MicroXplorer:468 - Change Database Path : 
+2024-03-25 10:12:26,669 [INFO] MicroXplorer:498 - Change Database Version : DB.6.0.100
+2024-03-25 10:12:26,669 [INFO] OpenFileManager:312 - Change cursor
+2024-03-25 10:12:26,689 [INFO] RulesReader:64 - Compatibility file has been processed (297 Rules)
+2024-03-25 10:12:26,700 [INFO] Mcu:2016 - Initializing MCU STM32F411CEUx STM32F411CEUx STM32F411CEU6
+2024-03-25 10:12:28,042 [INFO] Context:659 - Trying to add GPIOservice into a context  which must be forbidden
+2024-03-25 10:12:28,260 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) Unable to find key (Mcu.ThirdPartyNb) in loaded IOC file
+2024-03-25 10:12:28,260 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) Unable to find key (Mcu.PinsNb) in loaded IOC file
+2024-03-25 10:12:28,260 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) Unable to find key (Mcu.IPNb) in loaded IOC file
+2024-03-25 10:12:28,276 [INFO] RtosManager:555 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2024-03-25 10:12:28,276 [INFO] RtosManager:555 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2024-03-25 10:12:28,276 [INFO] RtosManager:555 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2024-03-25 10:12:28,276 [INFO] RtosManager:555 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2024-03-25 10:12:28,276 [WARN] ModelIntegratedComponent:184 - Missing modes for component STMicroelectronics:FreeRTOS:0.0.1:STMicroelectronics:RTOS:FreeRTOS:Core:::10.2.0:
+2024-03-25 10:12:28,276 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:Audio HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2024-03-25 10:12:28,276 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:Audio HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2024-03-25 10:12:28,276 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:CDC HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2024-03-25 10:12:28,276 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:CDC HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2024-03-25 10:12:28,276 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:MSC HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2024-03-25 10:12:28,276 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:MSC HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2024-03-25 10:12:28,276 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:HID HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2024-03-25 10:12:28,276 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:HID HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2024-03-25 10:12:28,276 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:MTP HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2024-03-25 10:12:28,276 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:MTP HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2024-03-25 10:12:28,276 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-25 10:12:28,276 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-25 10:12:28,276 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-25 10:12:28,276 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-25 10:12:28,276 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-25 10:12:28,276 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-25 10:12:28,276 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-25 10:12:28,276 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-25 10:12:28,276 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-25 10:12:28,276 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-25 10:12:28,276 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-25 10:12:28,276 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-25 10:12:28,276 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-25 10:12:28,276 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-25 10:12:28,276 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-25 10:12:28,276 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-25 10:12:28,276 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-25 10:12:28,276 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-25 10:12:28,276 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-25 10:12:28,276 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-25 10:12:28,276 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-25 10:12:28,276 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-25 10:12:28,276 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-25 10:12:28,276 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-25 10:12:28,276 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-25 10:12:28,276 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-25 10:12:28,276 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-25 10:12:28,276 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-25 10:12:28,276 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-25 10:12:28,276 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-25 10:12:28,276 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-25 10:12:28,276 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-25 10:12:28,276 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-25 10:12:28,339 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:Audio HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2024-03-25 10:12:28,339 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:Audio HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2024-03-25 10:12:28,339 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:CDC HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2024-03-25 10:12:28,339 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:CDC HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2024-03-25 10:12:28,339 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:DFU HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2024-03-25 10:12:28,339 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:DFU HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2024-03-25 10:12:28,339 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:HID HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2024-03-25 10:12:28,339 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:HID HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2024-03-25 10:12:28,339 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:Custom HID HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2024-03-25 10:12:28,339 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:Custom HID HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2024-03-25 10:12:28,339 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:MSC HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2024-03-25 10:12:28,339 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:MSC HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2024-03-25 10:12:28,354 [INFO] ThirdPartyModel:298 - Start build external matchings
+2024-03-25 10:12:28,823 [INFO] ThirdPartyModel:316 - End build external matchings
+2024-03-25 10:12:29,101 [INFO] UtilMem:75 - End LoadConfig() Used Memory: 876189880 Bytes (1073741824)
+2024-03-25 10:12:29,125 [INFO] MicroXplorer:468 - Change Database Path : 
+2024-03-25 10:12:29,126 [INFO] MicroXplorer:498 - Change Database Version : DB.6.0.100
+2024-03-25 10:12:29,126 [WARN] ThirdParty:833 - waiting for thirdparty lock release [change project]
+2024-03-25 10:12:29,126 [INFO] ThirdParty:835 - entering critical section [change project]
+2024-03-25 10:12:29,126 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USBPD 4.1
+2024-03-25 10:12:29,126 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 6.0.0
+2024-03-25 10:12:29,126 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2024-03-25 10:12:29,126 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F4 1.1.0
+2024-03-25 10:12:29,126 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics LIBJPEG 8.0.0
+2024-03-25 10:12:29,126 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SMBUS 2.1.0
+2024-03-25 10:12:29,126 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2024-03-25 10:12:29,127 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WB 2.0.0
+2024-03-25 10:12:29,127 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSL 5.6.6
+2024-03-25 10:12:29,127 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.23.0
+2024-03-25 10:12:29,127 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F7 1.1.0
+2024-03-25 10:12:29,127 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 2.0.0
+2024-03-25 10:12:29,127 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2024-03-25 10:12:29,127 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :ITTIA_DB I-CUBE-ITTIADB 8.8.0
+2024-03-25 10:12:29,127 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-MOTENV1 4.3.2
+2024-03-25 10:12:29,127 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.3.0
+2024-03-25 10:12:29,127 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2024-03-25 10:12:29,127 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G0 1.1.0
+2024-03-25 10:12:29,127 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 3.0.0
+2024-03-25 10:12:29,127 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 5.0.0
+2024-03-25 10:12:29,127 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics STM32_WPAN 1.0.0
+2024-03-25 10:12:29,127 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2024-03-25 10:12:29,127 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-FLIGHT1 5.0.2
+2024-03-25 10:12:29,127 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2024-03-25 10:12:29,127 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 2.0.0
+2024-03-25 10:12:29,127 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2024-03-25 10:12:29,127 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :Infineon AIROC-Wi-Fi-Bluetooth-STM32 1.5.1
+2024-03-25 10:12:29,127 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2024-03-25 10:12:29,127 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 3.0.0
+2024-03-25 10:12:29,127 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-MOTENVWB1 1.3.1
+2024-03-25 10:12:29,127 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 7.0.0
+2024-03-25 10:12:29,127 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-SIGFOX1 3.2.0
+2024-03-25 10:12:29,127 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ISPU 2.0.0
+2024-03-25 10:12:29,128 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 5.1.0
+2024-03-25 10:12:29,128 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2024-03-25 10:12:29,128 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2024-03-25 10:12:29,128 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :emotas I-CUBE-CANOPEN 1.3.0
+2024-03-25 10:12:29,128 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 10.0.0
+2024-03-25 10:12:29,128 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-FREERTOS 1.1.0
+2024-03-25 10:12:29,128 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC7 1.0.1
+2024-03-25 10:12:29,128 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2024-03-25 10:12:29,128 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC6 3.0.0
+2024-03-25 10:12:29,128 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :portGmbH I-Cube-SoM-uGOAL 1.1.0
+2024-03-25 10:12:29,128 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALS 1.0.1
+2024-03-25 10:12:29,128 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 3.1.0
+2024-03-25 10:12:29,128 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics ThreadX 1.0.0
+2024-03-25 10:12:29,128 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-SMARTAG2 1.2.0
+2024-03-25 10:12:29,128 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WL 2.0.0
+2024-03-25 10:12:29,129 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :SEGGER I-CUBE-embOS 1.3.1
+2024-03-25 10:12:29,129 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2024-03-25 10:12:29,129 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 8.1.0
+2024-03-25 10:12:29,129 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L4 2.0.0
+2024-03-25 10:12:29,129 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics ThreadX 0.0.2
+2024-03-25 10:12:29,129 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :WES I-CUBE-Cesium 1.3.0
+2024-03-25 10:12:29,129 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-ASTRA1 2.0.0
+2024-03-25 10:12:29,129 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2024-03-25 10:12:29,129 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 4.0.0
+2024-03-25 10:12:29,129 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.3.0
+2024-03-25 10:12:29,129 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.4.1
+2024-03-25 10:12:29,129 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 3.2.0
+2024-03-25 10:12:29,129 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2024-03-25 10:12:29,129 [INFO] ThirdParty:841 - exiting critical section [change project]
+2024-03-25 10:12:29,314 [INFO] PinOutPanel:1499 - setPackage(No Configuration,No Configuration)
+2024-03-25 10:12:29,314 [INFO] PinOutPanel:1499 - setPackage(STM32F411CEUx,UFQFPN48)
+2024-03-25 10:12:29,504 [INFO] UtilMem:75 - Before build in PCC Used Memory: 812976160 Bytes (1073741824)
+2024-03-25 10:12:29,693 [INFO] UtilMem:75 - After build in PCC Used Memory: 854919200 Bytes (1073741824)
+2024-03-25 10:12:29,707 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 10:12:29,707 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 10:12:29,707 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 10:12:29,707 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 10:12:29,708 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 10:12:29,708 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 10:12:29,708 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 10:12:29,708 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 10:12:29,708 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 10:12:29,708 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 10:12:29,708 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 10:12:29,708 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 10:12:29,708 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 10:12:29,708 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 10:12:29,708 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 10:12:29,709 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 10:12:29,709 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 10:12:29,709 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 10:12:29,709 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 10:12:29,709 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 10:12:29,709 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 10:12:29,709 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 10:12:29,710 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 10:12:29,710 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 10:12:29,710 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 10:12:29,710 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 10:12:29,710 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 10:12:29,710 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 10:12:29,711 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 10:12:29,711 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 10:12:29,711 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 10:12:29,711 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 10:12:29,711 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 10:12:29,711 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 10:12:29,712 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 10:12:29,712 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 10:12:29,712 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 10:12:29,712 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 10:12:29,713 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 10:12:29,713 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 10:12:29,713 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 10:12:29,714 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 10:12:29,714 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 10:12:29,731 [INFO] ApiDbMcu:508 - Load IP Config File for PDM2PCM
+2024-03-25 10:12:29,753 [INFO] CADModel:165 - CPN selected for project levelSTM32F411CEU6
+2024-03-25 10:12:29,753 [INFO] CADModel:114 - Register for checkConnection events
+2024-03-25 10:12:29,802 [INFO] OpenFileManager:343 - Restore cursor
+2024-03-25 10:12:30,099 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 921342120 Bytes (1073741824)
+2024-03-25 10:12:30,131 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 935929936 Bytes (1073741824)
+2024-03-25 10:12:30,334 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-03-25 10:12:30,334 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-03-25 10:12:30,334 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.14.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.10.0.202311202037\\db\
+2024-03-25 10:12:30,568 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\MXTmpFiles\license.tmp_save
+2024-03-25 10:12:30,756 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\MXTmpFiles\license.tmp
+2024-03-25 10:12:30,771 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\Core\Src\stm32f4xx_it.c_save
+2024-03-25 10:12:31,006 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\Core\Src\stm32f4xx_it.c
+2024-03-25 10:12:31,021 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\Core\Inc\stm32f4xx_it.h_save
+2024-03-25 10:12:31,162 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\Core\Inc\stm32f4xx_it.h
+2024-03-25 10:12:31,240 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\Core\Src\stm32f4xx_hal_msp.c_save
+2024-03-25 10:12:31,381 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\Core\Src\stm32f4xx_hal_msp.c
+2024-03-25 10:12:31,397 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\MXTmpFiles\system.tmp_save
+2024-03-25 10:12:31,490 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\MXTmpFiles\system.tmp
+2024-03-25 10:12:31,506 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\Core\Inc\stm32f4xx_hal_conf.h_save
+2024-03-25 10:12:31,615 [INFO] CodeEngine:335 - Generated code: C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\Core\Inc\stm32f4xx_hal_conf.h
+2024-03-25 10:12:31,678 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\Core\Inc\main.h_save
+2024-03-25 10:12:31,819 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\Core\Inc\main.h
+2024-03-25 10:12:31,834 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\Core\Src\main.c_save
+2024-03-25 10:12:31,959 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\Core\Src\main.c
+2024-03-25 10:12:32,631 [INFO] ProjectBuilder:3076 - Time for Copy HAL[1] : 172mS.
+2024-03-25 10:12:32,631 [INFO] ProjectBuilder:4485 - Project Generator version: 4.2.0-B44
+2024-03-25 10:12:32,991 [INFO] ConfigFileManager:1495 - The Die is : DIE431
+2024-03-25 10:12:33,018 [INFO] ApiDbMcu:508 - Load IP Config File for FATFS
+2024-03-25 10:12:33,067 [INFO] ApiDbMcu:508 - Load IP Config File for FREERTOS
+2024-03-25 10:12:33,086 [INFO] ApiDbMcu:508 - Load IP Config File for LIBJPEG
+2024-03-25 10:12:33,148 [INFO] ApiDbMcu:508 - Load IP Config File for MBEDTLS
+2024-03-25 10:12:33,202 [INFO] ApiDbMcu:508 - Load IP Config File for USB_DEVICE
+2024-03-25 10:12:33,225 [INFO] ApiDbMcu:508 - Load IP Config File for USB_HOST
+2024-03-25 10:12:36,831 [INFO] ProjectBuilder:4747 - Time for Generating toolchain IDE Files: 4200mS.
+2024-03-25 10:12:36,832 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 1mS.
+2024-03-25 10:12:36,835 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 0mS.
+2024-03-25 10:12:38,628 [INFO] McuFinderGlobals:76 - Set McuFinderConnectedMode to true
+2024-03-25 10:12:38,629 [INFO] ApiDb:448 - Save user favorites file C:\Users\ACER/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2024-03-25 10:12:38,629 [INFO] ApiDb:452 - User favorites MCUs=[]
+2024-03-25 10:12:55,860 [INFO] Gpio:277 - dependency for GPIO [RCC]
+2024-03-25 10:12:58,519 [INFO] Gpio:277 - dependency for GPIO [RCC]
+2024-03-25 10:13:17,052 [INFO] ParamManager:896 - [Generic UI] PropertyChangeEvent: TAB_STATUS_CHANGED , "dont care", "never mind"
+2024-03-25 10:13:17,052 [INFO] ParamManager:896 - [Generic UI] PropertyChangeEvent: TAB_STATUS_CHANGED , "dont care", "never mind"
+2024-03-25 10:13:17,068 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:17,084 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:17,084 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:17,084 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:17,084 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:17,084 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:17,084 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:17,084 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:17,084 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:17,084 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:17,084 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:17,084 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:17,084 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:17,084 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:17,084 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:17,084 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:17,147 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-25 10:13:17,210 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-25 10:13:17,257 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:17,257 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:17,257 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:17,257 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:17,257 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:17,257 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:17,257 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:17,257 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:17,257 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:17,257 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:17,257 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:17,257 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:17,257 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:17,257 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:17,273 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:17,288 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:17,288 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:17,288 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:17,288 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:17,288 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:17,288 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:17,288 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:17,288 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:17,288 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:17,288 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:17,288 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:17,288 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:17,288 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:17,288 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:17,309 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:23,746 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:23,746 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:23,746 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:23,746 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:23,746 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:23,746 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:23,746 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:23,746 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:23,747 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:23,747 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:23,747 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:23,747 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:23,747 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:23,747 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:23,770 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:27,664 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:27,667 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:27,667 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:27,667 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:27,667 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:27,667 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:27,667 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:27,667 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:27,667 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:27,667 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:27,667 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:27,668 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:27,668 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:27,668 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:27,674 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:27,686 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:27,687 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:27,687 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:27,687 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:27,687 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:27,687 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:27,687 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:27,687 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:27,687 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:27,687 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:27,688 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:27,688 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:27,688 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:27,688 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:27,694 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:27,720 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:27,721 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:27,721 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:27,721 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:27,721 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:27,721 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:27,721 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:27,721 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:27,721 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:27,721 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:27,721 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:27,721 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:27,721 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:27,721 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:27,736 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:13:44,984 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-03-25 10:13:44,984 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-03-25 10:13:45,003 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-03-25 10:13:45,003 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-03-25 10:13:45,003 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-03-25 10:13:45,003 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-03-25 10:13:45,036 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-03-25 10:13:45,036 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-03-25 10:13:45,037 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-03-25 10:13:45,037 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-03-25 10:13:47,458 [INFO] Gpio:277 - dependency for GPIO [ADC1, I2C2, RCC, SYS]
+2024-03-25 10:14:11,912 [INFO] Gpio:277 - dependency for GPIO [ADC1, I2C2, RCC, SYS]
+2024-03-25 10:14:12,006 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-03-25 10:14:12,006 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-03-25 10:14:12,007 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-03-25 10:14:12,007 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-03-25 10:14:12,045 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-03-25 10:14:12,045 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-03-25 10:14:12,082 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-03-25 10:14:12,082 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-03-25 10:14:12,095 [INFO] Gpio:277 - dependency for GPIO [ADC1, I2C2, RCC, SYS]
+2024-03-25 10:14:23,671 [INFO] Gpio:277 - dependency for GPIO [ADC1, I2C2, RCC, SYS]
+2024-03-25 10:14:23,749 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-03-25 10:14:23,749 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-03-25 10:14:23,749 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-03-25 10:14:23,749 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-03-25 10:14:23,781 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-03-25 10:14:23,781 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-03-25 10:14:23,812 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-03-25 10:14:23,812 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-03-25 10:14:23,812 [INFO] Gpio:277 - dependency for GPIO [ADC1, I2C2, RCC, SYS]
+2024-03-25 10:14:39,990 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-03-25 10:14:39,990 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-03-25 10:14:39,990 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-03-25 10:14:39,990 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-03-25 10:14:54,605 [WARN] IP:2119 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:14:54,605 [WARN] IP:2119 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:14:54,605 [WARN] IP:2119 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:14:54,605 [WARN] IP:2119 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:14:54,605 [WARN] IP:2119 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:14:54,605 [WARN] IP:2119 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:14:54,621 [WARN] IP:2119 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:14:54,621 [WARN] IP:2119 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:14:54,621 [WARN] IP:2119 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:15:09,044 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:09,045 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:09,045 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:09,045 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:09,045 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:09,045 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:09,045 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:09,045 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:09,045 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:09,045 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:09,045 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:09,045 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:09,046 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:09,046 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:09,061 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:09,088 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:09,089 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:09,089 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:09,089 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:09,089 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:09,089 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:09,089 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:09,089 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:09,090 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:09,090 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:09,090 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:09,090 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:09,090 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:09,090 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:09,112 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:13,365 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,499x438,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-25 10:15:14,753 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-25 10:15:27,072 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 923130624 Bytes (1073741824)
+2024-03-25 10:15:27,667 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 943952712 Bytes (1073741824)
+2024-03-25 10:15:28,991 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 765582920 Bytes (1073741824)
+2024-03-25 10:15:29,203 [INFO] ProjectBuilder:2346 - IP not ready for code generation: Clock
+2024-03-25 10:15:46,286 [WARN] IP:2119 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:15:46,287 [WARN] IP:2119 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:15:46,287 [WARN] IP:2119 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:15:46,288 [WARN] IP:2119 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:15:46,288 [WARN] IP:2119 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:15:46,288 [WARN] IP:2119 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:15:46,340 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-03-25 10:15:46,340 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-03-25 10:15:46,340 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-03-25 10:15:46,340 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-03-25 10:15:46,355 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:46,356 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:46,357 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:46,357 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:46,357 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:46,357 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:46,357 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:46,357 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:46,357 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:46,357 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:46,357 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:46,357 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:46,357 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:46,357 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:46,397 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:46,467 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:46,468 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:46,468 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:46,468 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:46,468 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:46,468 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:46,468 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:46,469 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:46,469 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:46,469 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:46,469 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:46,469 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:46,469 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:46,469 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:46,506 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:46,557 [WARN] IP:2119 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:15:46,557 [WARN] IP:2119 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:15:46,557 [WARN] IP:2119 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:15:46,558 [WARN] IP:2119 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:15:46,559 [WARN] IP:2119 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:15:46,559 [WARN] IP:2119 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:15:46,600 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-03-25 10:15:46,600 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-03-25 10:15:46,600 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-03-25 10:15:46,601 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-03-25 10:15:46,619 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:46,620 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:46,620 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:46,620 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:46,620 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:46,620 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:46,620 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:46,620 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:46,620 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:46,620 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:46,620 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:46,620 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:46,620 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:46,620 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:46,639 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:46,665 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:46,666 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:46,666 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:46,666 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:46,666 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:46,666 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:46,666 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:46,666 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:46,666 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:46,666 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:46,666 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:46,666 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:46,666 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:46,666 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:46,686 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:56,072 [WARN] IP:2119 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:15:56,072 [WARN] IP:2119 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:15:56,072 [WARN] IP:2119 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:15:56,073 [WARN] IP:2119 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:15:56,073 [WARN] IP:2119 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:15:56,073 [WARN] IP:2119 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:15:56,124 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-03-25 10:15:56,124 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-03-25 10:15:56,124 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-03-25 10:15:56,124 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-03-25 10:15:56,143 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:56,143 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:56,143 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:56,143 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:56,143 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:56,143 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:56,144 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:56,144 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:56,144 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:56,144 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:56,144 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:56,144 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:56,144 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:56,144 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:56,182 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:56,224 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:56,225 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:56,225 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:56,225 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:56,225 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:56,225 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:56,226 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:56,226 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:56,226 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:56,226 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:56,226 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:56,226 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:56,226 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:56,226 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:56,262 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:56,327 [WARN] IP:2119 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:15:56,327 [WARN] IP:2119 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:15:56,327 [WARN] IP:2119 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:15:56,329 [WARN] IP:2119 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:15:56,329 [WARN] IP:2119 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:15:56,329 [WARN] IP:2119 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:15:56,369 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-03-25 10:15:56,369 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-03-25 10:15:56,369 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-03-25 10:15:56,369 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-03-25 10:15:56,383 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:56,384 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:56,384 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:56,384 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:56,384 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:56,384 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:56,384 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:56,384 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:56,384 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:56,384 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:56,384 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:56,384 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:56,384 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:56,384 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:56,415 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:56,448 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:56,449 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:56,449 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:56,449 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:56,449 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:56,449 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:56,449 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:56,450 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:56,450 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:56,450 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:56,450 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:56,450 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:56,450 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:56,450 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:56,477 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:58,917 [WARN] IP:2119 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:15:58,917 [WARN] IP:2119 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:15:58,917 [WARN] IP:2119 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:15:58,918 [WARN] IP:2119 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:15:58,918 [WARN] IP:2119 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:15:58,918 [WARN] IP:2119 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:15:58,962 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-03-25 10:15:58,962 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-03-25 10:15:58,962 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-03-25 10:15:58,962 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-03-25 10:15:58,975 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:58,976 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:58,976 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:58,976 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:58,976 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:58,976 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:58,976 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:58,976 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:58,976 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:58,976 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:58,976 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:58,976 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:58,976 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:58,976 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:59,011 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:59,056 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:59,057 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:59,057 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:59,057 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:59,057 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:59,057 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:59,057 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:59,057 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:59,057 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:59,057 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:59,057 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:59,058 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:59,058 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:59,058 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:59,103 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:59,152 [WARN] IP:2119 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:15:59,153 [WARN] IP:2119 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:15:59,153 [WARN] IP:2119 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:15:59,154 [WARN] IP:2119 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:15:59,154 [WARN] IP:2119 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:15:59,154 [WARN] IP:2119 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:15:59,187 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-03-25 10:15:59,187 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-03-25 10:15:59,187 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-03-25 10:15:59,187 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-03-25 10:15:59,200 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:59,200 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:59,200 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:59,200 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:59,201 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:59,201 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:59,201 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:59,201 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:59,201 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:59,201 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:59,201 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:59,201 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:59,201 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:59,201 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:59,224 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:59,248 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:59,249 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:59,249 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:59,249 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:59,249 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:59,249 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:59,249 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:59,249 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:59,249 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:59,249 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:59,249 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:59,249 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:59,249 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:59,249 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:15:59,267 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:00,735 [WARN] IP:2119 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:16:00,736 [WARN] IP:2119 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:16:00,736 [WARN] IP:2119 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:16:00,736 [WARN] IP:2119 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:16:00,736 [WARN] IP:2119 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:16:00,736 [WARN] IP:2119 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:16:00,786 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-03-25 10:16:00,786 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-03-25 10:16:00,786 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-03-25 10:16:00,786 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-03-25 10:16:00,803 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:00,803 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:00,803 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:00,803 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:00,803 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:00,803 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:00,804 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:00,804 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:00,804 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:00,804 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:00,804 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:00,804 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:00,804 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:00,804 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:00,842 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:00,886 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:00,887 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:00,887 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:00,887 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:00,887 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:00,887 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:00,887 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:00,888 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:00,888 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:00,888 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:00,888 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:00,888 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:00,888 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:00,888 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:00,926 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:00,976 [WARN] IP:2119 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:16:00,976 [WARN] IP:2119 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:16:00,976 [WARN] IP:2119 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:16:00,977 [WARN] IP:2119 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:16:00,977 [WARN] IP:2119 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:16:00,977 [WARN] IP:2119 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:16:01,011 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-03-25 10:16:01,011 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-03-25 10:16:01,012 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-03-25 10:16:01,012 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-03-25 10:16:01,026 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:01,027 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:01,027 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:01,027 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:01,027 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:01,027 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:01,027 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:01,027 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:01,027 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:01,027 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:01,027 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:01,027 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:01,027 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:01,027 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:01,059 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:01,088 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:01,088 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:01,089 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:01,089 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:01,089 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:01,089 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:01,089 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:01,089 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:01,089 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:01,089 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:01,089 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:01,089 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:01,089 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:01,089 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:01,109 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:03,431 [WARN] IP:2119 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:16:03,431 [WARN] IP:2119 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:16:03,431 [WARN] IP:2119 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:16:03,433 [WARN] IP:2119 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:16:03,433 [WARN] IP:2119 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:16:03,433 [WARN] IP:2119 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:16:03,488 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-03-25 10:16:03,488 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-03-25 10:16:03,489 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-03-25 10:16:03,489 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-03-25 10:16:03,509 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:03,510 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:03,510 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:03,511 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:03,511 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:03,511 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:03,511 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:03,511 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:03,511 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:03,511 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:03,511 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:03,511 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:03,511 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:03,512 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:03,559 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:03,615 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:03,616 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:03,616 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:03,616 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:03,616 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:03,616 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:03,616 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:03,616 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:03,616 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:03,616 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:03,617 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:03,617 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:03,617 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:03,617 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:03,661 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:03,710 [WARN] IP:2119 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:16:03,710 [WARN] IP:2119 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:16:03,710 [WARN] IP:2119 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:16:03,711 [WARN] IP:2119 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:16:03,712 [WARN] IP:2119 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:16:03,712 [WARN] IP:2119 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:16:03,756 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-03-25 10:16:03,756 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-03-25 10:16:03,756 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-03-25 10:16:03,756 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-03-25 10:16:03,769 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:03,770 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:03,770 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:03,770 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:03,770 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:03,770 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:03,770 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:03,770 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:03,770 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:03,770 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:03,771 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:03,771 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:03,771 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:03,771 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:03,802 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:03,847 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:03,848 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:03,848 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:03,848 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:03,848 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:03,848 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:03,848 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:03,848 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:03,849 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:03,849 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:03,849 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:03,849 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:03,849 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:03,849 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:03,873 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:06,382 [WARN] IP:2119 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:16:06,382 [WARN] IP:2119 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:16:06,382 [WARN] IP:2119 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:16:06,383 [WARN] IP:2119 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:16:06,383 [WARN] IP:2119 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:16:06,383 [WARN] IP:2119 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:16:06,407 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-03-25 10:16:06,407 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-03-25 10:16:06,407 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-03-25 10:16:06,407 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-03-25 10:16:06,414 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:06,415 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:06,415 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:06,415 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:06,415 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:06,415 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:06,416 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:06,416 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:06,416 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:06,416 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:06,416 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:06,416 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:06,416 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:06,416 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:06,426 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:06,439 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:06,439 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:06,439 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:06,440 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:06,440 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:06,440 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:06,440 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:06,440 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:06,440 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:06,440 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:06,440 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:06,440 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:06,440 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:06,440 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:06,446 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:12,681 [WARN] IP:2119 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:16:12,681 [WARN] IP:2119 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:16:12,681 [WARN] IP:2119 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:16:12,682 [WARN] IP:2119 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:16:12,682 [WARN] IP:2119 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:16:12,682 [WARN] IP:2119 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:16:12,713 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-03-25 10:16:12,713 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-03-25 10:16:12,713 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-03-25 10:16:12,713 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-03-25 10:16:12,726 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:12,727 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:12,727 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:12,727 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:12,727 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:12,727 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:12,727 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:12,727 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:12,727 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:12,727 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:12,727 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:12,727 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:12,727 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:12,727 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:12,749 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:12,770 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:12,771 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:12,771 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:12,771 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:12,771 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:12,771 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:12,771 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:12,771 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:12,771 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:12,771 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:12,771 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:12,771 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:12,771 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:12,771 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:12,787 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 10:16:12,794 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-25 10:16:14,040 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 763652056 Bytes (1073741824)
+2024-03-25 10:16:14,627 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 732582368 Bytes (1073741824)
+2024-03-25 10:16:15,178 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 757977376 Bytes (1073741824)
+2024-03-25 10:16:15,377 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_OTG_FS
+2024-03-25 10:16:15,377 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-03-25 10:16:15,377 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_DEVICE
+2024-03-25 10:16:15,377 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-03-25 10:16:15,378 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-03-25 10:16:15,378 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2024-03-25 10:16:15,378 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-03-25 10:16:15,378 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: I2C
+2024-03-25 10:16:15,379 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.14.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.10.0.202311202037\\db\
+2024-03-25 10:16:15,385 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-03-25 10:16:15,385 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-03-25 10:16:15,394 [WARN] IP:2119 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:16:15,394 [WARN] IP:2119 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:16:15,394 [WARN] IP:2119 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 10:16:15,544 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\MXTmpFiles\license.tmp_save
+2024-03-25 10:16:15,670 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\MXTmpFiles\license.tmp
+2024-03-25 10:16:15,729 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\MXTmpFiles\gpio.tmp_save
+2024-03-25 10:16:15,847 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\MXTmpFiles\gpio.tmp
+2024-03-25 10:16:15,896 [WARN] IPConfigManager:2946 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2024-03-25 10:16:15,912 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\MXTmpFiles\usb_otg_fs_vars.tmp_save
+2024-03-25 10:16:16,100 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\MXTmpFiles\usb_otg_fs_vars.tmp
+2024-03-25 10:16:16,115 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\MXTmpFiles\usb_otg_fs_inc.tmp_save
+2024-03-25 10:16:16,193 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\MXTmpFiles\usb_otg_fs_inc.tmp
+2024-03-25 10:16:16,225 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\MXTmpFiles\usb_otg_fs_HalInit.tmp_save
+2024-03-25 10:16:16,334 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\MXTmpFiles\usb_otg_fs_HalInit.tmp
+2024-03-25 10:16:16,350 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\MXTmpFiles\usb_otg_fs_Msp.tmp_save
+2024-03-25 10:16:16,459 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\MXTmpFiles\usb_otg_fs_Msp.tmp
+2024-03-25 10:16:16,647 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2024-03-25 10:16:16,647 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2024-03-25 10:16:16,662 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\USB_DEVICE\App\usb_device.c_save
+2024-03-25 10:16:16,772 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\USB_DEVICE\App\usb_device.c
+2024-03-25 10:16:16,787 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\USB_DEVICE\App\usb_device.h_save
+2024-03-25 10:16:16,881 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\USB_DEVICE\App\usb_device.h
+2024-03-25 10:16:16,897 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\USB_DEVICE\Target\usbd_conf.h_save
+2024-03-25 10:16:16,990 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\USB_DEVICE\Target\usbd_conf.h
+2024-03-25 10:16:17,006 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\USB_DEVICE\Target\usbd_conf.c_save
+2024-03-25 10:16:17,131 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\USB_DEVICE\Target\usbd_conf.c
+2024-03-25 10:16:17,147 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\USB_DEVICE\App\usbd_desc.h_save
+2024-03-25 10:16:17,256 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\USB_DEVICE\App\usbd_desc.h
+2024-03-25 10:16:17,256 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\USB_DEVICE\App\usbd_desc.c_save
+2024-03-25 10:16:17,366 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\USB_DEVICE\App\usbd_desc.c
+2024-03-25 10:16:17,397 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\USB_DEVICE\App\usbd_cdc_if.h_save
+2024-03-25 10:16:17,491 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\USB_DEVICE\App\usbd_cdc_if.h
+2024-03-25 10:16:17,506 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\USB_DEVICE\App\usbd_cdc_if.c_save
+2024-03-25 10:16:17,616 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\USB_DEVICE\App\usbd_cdc_if.c
+2024-03-25 10:16:17,647 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\Core\Src\stm32f4xx_it.c_save
+2024-03-25 10:16:17,897 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\Core\Src\stm32f4xx_it.c
+2024-03-25 10:16:17,913 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\Core\Inc\stm32f4xx_it.h_save
+2024-03-25 10:16:18,016 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\Core\Inc\stm32f4xx_it.h
+2024-03-25 10:16:18,045 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\Core\Src\stm32f4xx_hal_msp.c_save
+2024-03-25 10:16:18,217 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\Core\Src\stm32f4xx_hal_msp.c
+2024-03-25 10:16:18,223 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\MXTmpFiles\system.tmp_save
+2024-03-25 10:16:18,299 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\MXTmpFiles\system.tmp
+2024-03-25 10:16:18,325 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\Core\Inc\stm32f4xx_hal_conf.h_save
+2024-03-25 10:16:18,462 [INFO] CodeEngine:335 - Generated code: C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\Core\Inc\stm32f4xx_hal_conf.h
+2024-03-25 10:16:18,558 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\Core\Inc\main.h_save
+2024-03-25 10:16:18,682 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\Core\Inc\main.h
+2024-03-25 10:16:18,700 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\Core\Src\main.c_save
+2024-03-25 10:16:18,842 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\Core\Src\main.c
+2024-03-25 10:16:19,677 [INFO] ProjectBuilder:3076 - Time for Copy HAL[1] : 284mS.
+2024-03-25 10:16:19,685 [INFO] ProjectBuilder:4485 - Project Generator version: 4.2.0-B44
+2024-03-25 10:16:20,043 [INFO] ConfigFileManager:1495 - The Die is : DIE431
+2024-03-25 10:16:21,940 [INFO] ProjectBuilder:4747 - Time for Generating toolchain IDE Files: 2255mS.
+2024-03-25 10:16:21,941 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 0mS.
+2024-03-25 10:16:21,949 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 0mS.
+2024-03-25 12:37:41,532 [INFO] MainUpdater:2873 - connection check result : 10
+2024-03-25 12:37:41,532 [INFO] MainUpdater:2873 - connection check result : 10
+2024-03-25 12:37:41,570 [INFO] MicroXplorer:468 - Change Database Path : 
+2024-03-25 12:37:41,570 [INFO] MicroXplorer:498 - Change Database Version : DB.6.0.100
+2024-03-25 12:37:41,577 [ERROR] ProjectManagerView:394 - 
+java.lang.NullPointerException: Cannot invoke "javax.swing.JTextField.getText()" because the return value of "java.util.List.get(int)" is null
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab$10.caretUpdate(ProjectChoiceTab.java:2493) ~[filemanager.jar:?]
+	at javax.swing.text.JTextComponent.fireCaretUpdate(JTextComponent.java:412) ~[?:?]
+	at javax.swing.text.JTextComponent$MutableCaretEvent.fire(JTextComponent.java:4491) ~[?:?]
+	at javax.swing.text.JTextComponent$MutableCaretEvent.stateChanged(JTextComponent.java:4513) ~[?:?]
+	at javax.swing.text.DefaultCaret.fireStateChanged(DefaultCaret.java:842) ~[?:?]
+	at javax.swing.text.DefaultCaret.changeCaretPosition(DefaultCaret.java:1313) ~[?:?]
+	at javax.swing.text.DefaultCaret.handleSetDot(DefaultCaret.java:1212) ~[?:?]
+	at javax.swing.text.DefaultCaret.setDot(DefaultCaret.java:1193) ~[?:?]
+	at javax.swing.text.DefaultCaret$Handler.insertUpdate(DefaultCaret.java:1789) ~[?:?]
+	at javax.swing.text.AbstractDocument.fireInsertUpdate(AbstractDocument.java:226) ~[?:?]
+	at javax.swing.text.AbstractDocument.handleInsertString(AbstractDocument.java:780) ~[?:?]
+	at javax.swing.text.AbstractDocument.insertString(AbstractDocument.java:739) ~[?:?]
+	at javax.swing.text.PlainDocument.insertString(PlainDocument.java:131) ~[?:?]
+	at javax.swing.text.AbstractDocument.replace(AbstractDocument.java:698) ~[?:?]
+	at javax.swing.text.JTextComponent.setText(JTextComponent.java:1729) ~[?:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab.createHeapStackFields(ProjectChoiceTab.java:933) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab.buildLinkSettingsPanel(ProjectChoiceTab.java:3426) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab.defineWindowsFields(ProjectChoiceTab.java:1813) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab.updateSettings(ProjectChoiceTab.java:533) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectSettingsPanel.UpdateDialog(ProjectSettingsPanel.java:244) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.ProjectManagerView.propertyChange(ProjectManagerView.java:391) ~[filemanager.jar:?]
+	at java.beans.PropertyChangeSupport.fire(PropertyChangeSupport.java:343) ~[?:?]
+	at java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:335) ~[?:?]
+	at java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:268) ~[?:?]
+	at com.st.microxplorer.util.MXPropertyChangeSupport.firePropertyChange(MXPropertyChangeSupport.java:54) ~[STM32CubeMX.jar:?]
+	at com.st.microxplorer.mxsystem.MxSystem.closeConfig(MxSystem.java:900) ~[STM32CubeMX.jar:?]
+	at com.st.microxplorer.maingui.MainPanel.closeConfig(MainPanel.java:776) ~[STM32CubeMX.jar:?]
+	at com.st.microxplorer.plugins.filemanager.engine.OpenFileManager.loadConfigurationFile(OpenFileManager.java:245) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.filemanager.engine.MainFileManager.userLoadConfig(MainFileManager.java:290) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.filemanager.FileManagerView.getSpecificTask(FileManagerView.java:247) ~[filemanager.jar:?]
+	at com.st.stm32cube.common.mx.editor.CubeMxEditor.getMxTabbedPaneInstance(CubeMxEditor.java:1184) ~[com.st.stm32cube.common.mx_6.10.0.202311202037/:?]
+	at com.st.stm32cube.common.mx.editor.CubeMxEditor$12$1.createSwingComponent(CubeMxEditor.java:1065) ~[com.st.stm32cube.common.mx_6.10.0.202311202037/:?]
+	at com.st.stm32cube.common.mx.oss.core.awtswtbridge.EmbeddedSwingComposite.doComponentCreation(EmbeddedSwingComposite.java:492) ~[com.st.stm32cube.common.mx.oss_6.10.0.202311202037/:?]
+	at com.st.stm32cube.common.mx.oss.core.awtswtbridge.EmbeddedSwingComposite$4.run(EmbeddedSwingComposite.java:291) ~[com.st.stm32cube.common.mx.oss_6.10.0.202311202037/:?]
+	at com.st.stm32cube.common.mx.oss.core.awtswtbridge.AwtEnvironment$2.run(AwtEnvironment.java:166) ~[com.st.stm32cube.common.mx.oss_6.10.0.202311202037/:?]
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318) ~[?:?]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:720) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:714) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:399) ~[?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86) ~[?:?]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:742) ~[?:?]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) ~[?:?]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:90) ~[?:?]
+2024-03-25 12:37:41,578 [WARN] ThirdParty:871 - waiting for thirdparty lock release [close project]
+2024-03-25 12:37:41,578 [INFO] ThirdParty:873 - entering critical section [close project]
+2024-03-25 12:37:41,578 [INFO] ThirdParty:883 - exiting critical section [close project]
+2024-03-25 12:37:41,579 [INFO] PinOutPanel:1499 - setPackage(No Configuration,No Configuration)
+2024-03-25 12:37:41,582 [WARN] IpParametersView:151 - Warning: This peripheral hasn't parameters
+2024-03-25 12:37:41,587 [WARN] MainPanel:272 - <html><b><center>Warning: This peripheral has no parameters to be configured<br></b></html>
+2024-03-25 12:37:41,589 [INFO] UtilMem:75 - Begin LoadConfig() Used Memory: 924948392 Bytes (1073741824)
+2024-03-25 12:37:41,590 [INFO] MicroXplorer:468 - Change Database Path : 
+2024-03-25 12:37:41,590 [INFO] MicroXplorer:498 - Change Database Version : DB.6.0.100
+2024-03-25 12:37:41,590 [INFO] OpenFileManager:312 - Change cursor
+2024-03-25 12:37:41,601 [INFO] RulesReader:64 - Compatibility file has been processed (297 Rules)
+2024-03-25 12:37:41,603 [INFO] Mcu:2016 - Initializing MCU STM32F411C(C-E)Ux STM32F411CEUx STM32F411CEU6
+2024-03-25 12:37:42,491 [INFO] Context:659 - Trying to add GPIOservice into a context  which must be forbidden
+2024-03-25 12:37:42,717 [INFO] RtosManager:555 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2024-03-25 12:37:42,718 [INFO] RtosManager:555 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2024-03-25 12:37:42,718 [INFO] RtosManager:555 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2024-03-25 12:37:42,718 [INFO] RtosManager:555 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2024-03-25 12:37:42,718 [WARN] ModelIntegratedComponent:184 - Missing modes for component STMicroelectronics:FreeRTOS:0.0.1:STMicroelectronics:RTOS:FreeRTOS:Core:::10.2.0:
+2024-03-25 12:37:42,721 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:Audio HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2024-03-25 12:37:42,721 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:Audio HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2024-03-25 12:37:42,721 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:CDC HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2024-03-25 12:37:42,721 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:CDC HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2024-03-25 12:37:42,721 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:MSC HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2024-03-25 12:37:42,721 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:MSC HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2024-03-25 12:37:42,721 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:HID HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2024-03-25 12:37:42,721 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:HID HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2024-03-25 12:37:42,721 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:MTP HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2024-03-25 12:37:42,721 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:MTP HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2024-03-25 12:37:42,725 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-25 12:37:42,725 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-25 12:37:42,725 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-25 12:37:42,725 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-25 12:37:42,725 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-25 12:37:42,725 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-25 12:37:42,725 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-25 12:37:42,725 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-25 12:37:42,725 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-25 12:37:42,725 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-25 12:37:42,725 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-25 12:37:42,725 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-25 12:37:42,725 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-25 12:37:42,725 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-25 12:37:42,725 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-25 12:37:42,725 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-25 12:37:42,725 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-25 12:37:42,725 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-25 12:37:42,725 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-25 12:37:42,725 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-25 12:37:42,726 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-25 12:37:42,726 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-25 12:37:42,726 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-25 12:37:42,726 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-25 12:37:42,726 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-25 12:37:42,726 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-25 12:37:42,726 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-25 12:37:42,726 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-25 12:37:42,726 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-25 12:37:42,726 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-25 12:37:42,726 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-25 12:37:42,726 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-25 12:37:42,726 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-25 12:37:42,859 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:Audio HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2024-03-25 12:37:42,859 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:Audio HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2024-03-25 12:37:42,859 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:CDC HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2024-03-25 12:37:42,859 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:CDC HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2024-03-25 12:37:42,859 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:DFU HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2024-03-25 12:37:42,859 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:DFU HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2024-03-25 12:37:42,859 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:HID HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2024-03-25 12:37:42,859 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:HID HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2024-03-25 12:37:42,859 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:Custom HID HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2024-03-25 12:37:42,859 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:Custom HID HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2024-03-25 12:37:42,859 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:MSC HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2024-03-25 12:37:42,859 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:MSC HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2024-03-25 12:37:42,870 [INFO] ThirdPartyModel:298 - Start build external matchings
+2024-03-25 12:37:43,177 [INFO] ThirdPartyModel:316 - End build external matchings
+2024-03-25 12:37:43,177 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Parameter (RTCHSEDivFreq_Value) has invalid value (12500000)
+2024-03-25 12:37:43,177 [WARN] IP:2119 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 12:37:43,177 [WARN] IP:2119 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 12:37:43,177 [WARN] IP:2119 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 12:37:43,440 [INFO] UtilMem:75 - End LoadConfig() Used Memory: 920405144 Bytes (1073741824)
+2024-03-25 12:37:43,483 [INFO] MicroXplorer:468 - Change Database Path : 
+2024-03-25 12:37:43,483 [INFO] MicroXplorer:498 - Change Database Version : DB.6.0.100
+2024-03-25 12:37:43,483 [WARN] ThirdParty:833 - waiting for thirdparty lock release [change project]
+2024-03-25 12:37:43,483 [INFO] ThirdParty:835 - entering critical section [change project]
+2024-03-25 12:37:43,483 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USBPD 4.1
+2024-03-25 12:37:43,483 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 6.0.0
+2024-03-25 12:37:43,483 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2024-03-25 12:37:43,483 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F4 1.1.0
+2024-03-25 12:37:43,483 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics LIBJPEG 8.0.0
+2024-03-25 12:37:43,483 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SMBUS 2.1.0
+2024-03-25 12:37:43,483 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2024-03-25 12:37:43,483 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WB 2.0.0
+2024-03-25 12:37:43,483 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSL 5.6.6
+2024-03-25 12:37:43,483 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.23.0
+2024-03-25 12:37:43,483 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F7 1.1.0
+2024-03-25 12:37:43,483 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 2.0.0
+2024-03-25 12:37:43,483 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2024-03-25 12:37:43,483 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :ITTIA_DB I-CUBE-ITTIADB 8.8.0
+2024-03-25 12:37:43,483 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-MOTENV1 4.3.2
+2024-03-25 12:37:43,483 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.3.0
+2024-03-25 12:37:43,483 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2024-03-25 12:37:43,483 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G0 1.1.0
+2024-03-25 12:37:43,483 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 3.0.0
+2024-03-25 12:37:43,483 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 5.0.0
+2024-03-25 12:37:43,483 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics STM32_WPAN 1.0.0
+2024-03-25 12:37:43,483 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2024-03-25 12:37:43,483 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-FLIGHT1 5.0.2
+2024-03-25 12:37:43,483 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2024-03-25 12:37:43,483 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 2.0.0
+2024-03-25 12:37:43,483 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2024-03-25 12:37:43,483 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :Infineon AIROC-Wi-Fi-Bluetooth-STM32 1.5.1
+2024-03-25 12:37:43,483 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2024-03-25 12:37:43,483 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 3.0.0
+2024-03-25 12:37:43,483 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-MOTENVWB1 1.3.1
+2024-03-25 12:37:43,483 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 7.0.0
+2024-03-25 12:37:43,483 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-SIGFOX1 3.2.0
+2024-03-25 12:37:43,483 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ISPU 2.0.0
+2024-03-25 12:37:43,483 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 5.1.0
+2024-03-25 12:37:43,483 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2024-03-25 12:37:43,483 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2024-03-25 12:37:43,483 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :emotas I-CUBE-CANOPEN 1.3.0
+2024-03-25 12:37:43,483 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 10.0.0
+2024-03-25 12:37:43,483 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-FREERTOS 1.1.0
+2024-03-25 12:37:43,483 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC7 1.0.1
+2024-03-25 12:37:43,483 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2024-03-25 12:37:43,483 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC6 3.0.0
+2024-03-25 12:37:43,483 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :portGmbH I-Cube-SoM-uGOAL 1.1.0
+2024-03-25 12:37:43,483 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALS 1.0.1
+2024-03-25 12:37:43,483 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 3.1.0
+2024-03-25 12:37:43,483 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics ThreadX 1.0.0
+2024-03-25 12:37:43,483 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-SMARTAG2 1.2.0
+2024-03-25 12:37:43,483 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WL 2.0.0
+2024-03-25 12:37:43,483 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :SEGGER I-CUBE-embOS 1.3.1
+2024-03-25 12:37:43,483 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2024-03-25 12:37:43,483 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 8.1.0
+2024-03-25 12:37:43,483 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L4 2.0.0
+2024-03-25 12:37:43,483 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics ThreadX 0.0.2
+2024-03-25 12:37:43,483 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :WES I-CUBE-Cesium 1.3.0
+2024-03-25 12:37:43,483 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-ASTRA1 2.0.0
+2024-03-25 12:37:43,483 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2024-03-25 12:37:43,483 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 4.0.0
+2024-03-25 12:37:43,483 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.3.0
+2024-03-25 12:37:43,483 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.4.1
+2024-03-25 12:37:43,483 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 3.2.0
+2024-03-25 12:37:43,483 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2024-03-25 12:37:43,483 [INFO] ThirdParty:841 - exiting critical section [change project]
+2024-03-25 12:37:43,618 [INFO] PinOutPanel:1499 - setPackage(No Configuration,No Configuration)
+2024-03-25 12:37:43,618 [INFO] PinOutPanel:1499 - setPackage(STM32F411CEUx,UFQFPN48)
+2024-03-25 12:37:43,805 [INFO] UtilMem:75 - Before build in PCC Used Memory: 877311840 Bytes (1073741824)
+2024-03-25 12:37:43,956 [INFO] UtilMem:75 - After build in PCC Used Memory: 919238072 Bytes (1073741824)
+2024-03-25 12:37:44,013 [INFO] ApiDbMcu:508 - Load IP Config File for USB_DEVICE
+2024-03-25 12:37:44,030 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 12:37:44,030 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 12:37:44,030 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 12:37:44,030 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 12:37:44,030 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 12:37:44,031 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 12:37:44,031 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 12:37:44,031 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 12:37:44,031 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 12:37:44,031 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 12:37:44,031 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 12:37:44,031 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 12:37:44,031 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 12:37:44,031 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 12:37:44,031 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 12:37:44,031 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 12:37:44,032 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 12:37:44,032 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 12:37:44,032 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 12:37:44,032 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 12:37:44,032 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 12:37:44,033 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 12:37:44,033 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 12:37:44,033 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 12:37:44,033 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 12:37:44,034 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 12:37:44,034 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 12:37:44,034 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 12:37:44,035 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 12:37:44,035 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 12:37:44,035 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 12:37:44,035 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 12:37:44,036 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 12:37:44,036 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 12:37:44,036 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 12:37:44,037 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 12:37:44,037 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 12:37:44,037 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 12:37:44,038 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 12:37:44,038 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 12:37:44,039 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 12:37:44,039 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 12:37:44,040 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-25 12:37:44,044 [INFO] ApiDbMcu:508 - Load IP Config File for PDM2PCM
+2024-03-25 12:37:44,045 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-03-25 12:37:44,045 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-03-25 12:37:44,098 [INFO] CADModel:165 - CPN selected for project levelSTM32F411CEU6
+2024-03-25 12:37:44,098 [INFO] CADModel:114 - Register for checkConnection events
+2024-03-25 12:37:44,160 [INFO] OpenFileManager:343 - Restore cursor
+2024-03-25 12:37:44,310 [WARN] IP:2119 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 12:37:44,310 [WARN] IP:2119 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 12:37:44,310 [WARN] IP:2119 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 12:37:44,311 [WARN] IP:2119 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 12:37:44,311 [WARN] IP:2119 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 12:37:44,311 [WARN] IP:2119 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 12:37:44,377 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-03-25 12:37:44,377 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-03-25 12:37:44,377 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-03-25 12:37:44,377 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-03-25 12:37:51,445 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 12:37:51,470 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 12:37:51,470 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 12:37:51,470 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 12:37:51,470 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 12:37:51,470 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 12:37:51,470 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 12:37:51,470 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 12:37:51,470 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 12:37:51,470 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 12:37:51,471 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 12:37:51,471 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 12:37:51,471 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 12:37:51,471 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 12:37:51,471 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 12:37:51,486 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 12:37:51,489 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-25 12:37:52,893 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 12:37:52,893 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 12:37:52,893 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 12:37:52,893 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 12:37:52,893 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 12:37:52,893 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 12:37:52,893 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 12:37:52,893 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 12:37:52,893 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 12:37:52,893 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 12:37:52,893 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 12:37:52,893 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 12:37:52,893 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 12:37:52,893 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 12:37:52,911 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 12:37:56,459 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-25 12:37:56,490 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 12:37:56,490 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 12:37:56,490 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 12:37:56,490 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 12:37:56,490 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 12:37:56,490 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 12:37:56,490 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 12:37:56,490 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 12:37:56,490 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 12:37:56,490 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 12:37:56,490 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 12:37:56,490 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 12:37:56,490 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 12:37:56,490 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 12:37:56,521 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 12:38:00,977 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 950898488 Bytes (1073741824)
+2024-03-25 12:38:01,684 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 784974384 Bytes (1073741824)
+2024-03-25 12:38:02,279 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 784048680 Bytes (1073741824)
+2024-03-25 12:38:02,507 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_OTG_FS
+2024-03-25 12:38:02,507 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-03-25 12:38:02,507 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_DEVICE
+2024-03-25 12:38:02,507 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-03-25 12:38:02,507 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-03-25 12:38:02,507 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2024-03-25 12:38:02,507 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-03-25 12:38:02,507 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: I2C
+2024-03-25 12:38:02,509 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.14.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.10.0.202311202037\\db\
+2024-03-25 12:38:02,514 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-03-25 12:38:02,515 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-03-25 12:38:02,523 [WARN] IP:2119 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 12:38:02,523 [WARN] IP:2119 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 12:38:02,523 [WARN] IP:2119 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 12:38:02,696 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\MXTmpFiles\license.tmp_save
+2024-03-25 12:38:02,867 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\MXTmpFiles\license.tmp
+2024-03-25 12:38:02,914 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\MXTmpFiles\gpio.tmp_save
+2024-03-25 12:38:03,050 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\MXTmpFiles\gpio.tmp
+2024-03-25 12:38:03,096 [WARN] IPConfigManager:2946 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2024-03-25 12:38:03,107 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\MXTmpFiles\usb_otg_fs_vars.tmp_save
+2024-03-25 12:38:03,281 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\MXTmpFiles\usb_otg_fs_vars.tmp
+2024-03-25 12:38:03,286 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\MXTmpFiles\usb_otg_fs_inc.tmp_save
+2024-03-25 12:38:03,360 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\MXTmpFiles\usb_otg_fs_inc.tmp
+2024-03-25 12:38:03,365 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\MXTmpFiles\usb_otg_fs_HalInit.tmp_save
+2024-03-25 12:38:03,473 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\MXTmpFiles\usb_otg_fs_HalInit.tmp
+2024-03-25 12:38:03,479 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\MXTmpFiles\usb_otg_fs_Msp.tmp_save
+2024-03-25 12:38:03,583 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\MXTmpFiles\usb_otg_fs_Msp.tmp
+2024-03-25 12:38:03,715 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2024-03-25 12:38:03,720 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2024-03-25 12:38:03,744 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\USB_DEVICE\App\usb_device.c_save
+2024-03-25 12:38:03,836 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\USB_DEVICE\App\usb_device.c
+2024-03-25 12:38:03,845 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\USB_DEVICE\App\usb_device.h_save
+2024-03-25 12:38:03,943 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\USB_DEVICE\App\usb_device.h
+2024-03-25 12:38:03,951 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\USB_DEVICE\Target\usbd_conf.h_save
+2024-03-25 12:38:04,037 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\USB_DEVICE\Target\usbd_conf.h
+2024-03-25 12:38:04,053 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\USB_DEVICE\Target\usbd_conf.c_save
+2024-03-25 12:38:04,162 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\USB_DEVICE\Target\usbd_conf.c
+2024-03-25 12:38:04,162 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\USB_DEVICE\App\usbd_desc.h_save
+2024-03-25 12:38:04,240 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\USB_DEVICE\App\usbd_desc.h
+2024-03-25 12:38:04,256 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\USB_DEVICE\App\usbd_desc.c_save
+2024-03-25 12:38:04,366 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\USB_DEVICE\App\usbd_desc.c
+2024-03-25 12:38:04,397 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\USB_DEVICE\App\usbd_cdc_if.h_save
+2024-03-25 12:38:04,475 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\USB_DEVICE\App\usbd_cdc_if.h
+2024-03-25 12:38:04,491 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\USB_DEVICE\App\usbd_cdc_if.c_save
+2024-03-25 12:38:04,600 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\USB_DEVICE\App\usbd_cdc_if.c
+2024-03-25 12:38:04,631 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\Core\Src\stm32f4xx_it.c_save
+2024-03-25 12:38:04,819 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\Core\Src\stm32f4xx_it.c
+2024-03-25 12:38:04,819 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\Core\Inc\stm32f4xx_it.h_save
+2024-03-25 12:38:04,913 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\Core\Inc\stm32f4xx_it.h
+2024-03-25 12:38:04,944 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\Core\Src\stm32f4xx_hal_msp.c_save
+2024-03-25 12:38:05,085 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\Core\Src\stm32f4xx_hal_msp.c
+2024-03-25 12:38:05,093 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\MXTmpFiles\system.tmp_save
+2024-03-25 12:38:05,175 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\MXTmpFiles\system.tmp
+2024-03-25 12:38:05,198 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\Core\Inc\stm32f4xx_hal_conf.h_save
+2024-03-25 12:38:05,319 [INFO] CodeEngine:335 - Generated code: C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\Core\Inc\stm32f4xx_hal_conf.h
+2024-03-25 12:38:05,382 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\Core\Inc\main.h_save
+2024-03-25 12:38:05,533 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\Core\Inc\main.h
+2024-03-25 12:38:05,550 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\Core\Src\main.c_save
+2024-03-25 12:38:05,693 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\Core\Src\main.c
+2024-03-25 12:38:06,518 [INFO] ProjectBuilder:3076 - Time for Copy HAL[1] : 342mS.
+2024-03-25 12:38:06,526 [INFO] ProjectBuilder:4485 - Project Generator version: 4.2.0-B44
+2024-03-25 12:38:06,864 [INFO] ConfigFileManager:1495 - The Die is : DIE431
+2024-03-25 12:38:06,881 [INFO] ApiDbMcu:508 - Load IP Config File for FATFS
+2024-03-25 12:38:06,931 [INFO] ApiDbMcu:508 - Load IP Config File for FREERTOS
+2024-03-25 12:38:06,938 [INFO] ApiDbMcu:508 - Load IP Config File for LIBJPEG
+2024-03-25 12:38:06,996 [INFO] ApiDbMcu:508 - Load IP Config File for MBEDTLS
+2024-03-25 12:38:07,011 [INFO] ApiDbMcu:508 - Load IP Config File for USB_HOST
+2024-03-25 12:38:09,098 [INFO] ProjectBuilder:4747 - Time for Generating toolchain IDE Files: 2572mS.
+2024-03-25 12:38:09,099 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 1mS.
+2024-03-25 12:38:09,108 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 0mS.
+2024-03-25 12:51:10,821 [INFO] Gpio:277 - dependency for GPIO [ADC1, I2C2, RCC, SYS, USB_OTG_FS]
+2024-03-25 12:53:05,669 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 12:53:05,669 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 12:53:05,670 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 12:53:05,670 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 12:53:05,670 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 12:53:05,670 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 12:53:05,670 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 12:53:05,670 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 12:53:05,670 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 12:53:05,670 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 12:53:05,670 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 12:53:05,670 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 12:53:05,670 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 12:53:05,670 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 12:53:05,686 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 12:53:05,710 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 12:53:05,711 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 12:53:05,711 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 12:53:05,711 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 12:53:05,711 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 12:53:05,711 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 12:53:05,711 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 12:53:05,711 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 12:53:05,711 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 12:53:05,711 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 12:53:05,711 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 12:53:05,711 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 12:53:05,711 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 12:53:05,711 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 12:53:05,727 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-25 12:53:12,295 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,571x222,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-25 12:53:14,240 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-25 12:53:16,289 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 920300856 Bytes (1073741824)
+2024-03-25 12:53:16,962 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 786326896 Bytes (1073741824)
+2024-03-25 12:53:17,640 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 808873328 Bytes (1073741824)
+2024-03-25 12:53:17,813 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_OTG_FS
+2024-03-25 12:53:17,813 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-03-25 12:53:17,813 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_DEVICE
+2024-03-25 12:53:17,813 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-03-25 12:53:17,813 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-03-25 12:53:17,813 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2024-03-25 12:53:17,813 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-03-25 12:53:17,813 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: I2C
+2024-03-25 12:53:17,814 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.14.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.10.0.202311202037\\db\
+2024-03-25 12:53:17,819 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-03-25 12:53:17,819 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-03-25 12:53:17,826 [WARN] IP:2119 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 12:53:17,826 [WARN] IP:2119 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 12:53:17,826 [WARN] IP:2119 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2024-03-25 12:53:18,050 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\MXTmpFiles\license.tmp_save
+2024-03-25 12:53:18,186 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\MXTmpFiles\license.tmp
+2024-03-25 12:53:18,213 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\MXTmpFiles\gpio.tmp_save
+2024-03-25 12:53:18,360 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\MXTmpFiles\gpio.tmp
+2024-03-25 12:53:18,402 [WARN] IPConfigManager:2946 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2024-03-25 12:53:18,414 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\MXTmpFiles\usb_otg_fs_vars.tmp_save
+2024-03-25 12:53:18,533 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\MXTmpFiles\usb_otg_fs_vars.tmp
+2024-03-25 12:53:18,538 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\MXTmpFiles\usb_otg_fs_inc.tmp_save
+2024-03-25 12:53:18,616 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\MXTmpFiles\usb_otg_fs_inc.tmp
+2024-03-25 12:53:18,622 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\MXTmpFiles\usb_otg_fs_HalInit.tmp_save
+2024-03-25 12:53:18,748 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\MXTmpFiles\usb_otg_fs_HalInit.tmp
+2024-03-25 12:53:18,753 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\MXTmpFiles\usb_otg_fs_Msp.tmp_save
+2024-03-25 12:53:18,900 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\MXTmpFiles\usb_otg_fs_Msp.tmp
+2024-03-25 12:53:19,046 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2024-03-25 12:53:19,052 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2024-03-25 12:53:19,075 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\USB_DEVICE\App\usb_device.c_save
+2024-03-25 12:53:19,170 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\USB_DEVICE\App\usb_device.c
+2024-03-25 12:53:19,180 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\USB_DEVICE\App\usb_device.h_save
+2024-03-25 12:53:19,262 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\USB_DEVICE\App\usb_device.h
+2024-03-25 12:53:19,279 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\USB_DEVICE\Target\usbd_conf.h_save
+2024-03-25 12:53:19,363 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\USB_DEVICE\Target\usbd_conf.h
+2024-03-25 12:53:19,379 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\USB_DEVICE\Target\usbd_conf.c_save
+2024-03-25 12:53:19,490 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\USB_DEVICE\Target\usbd_conf.c
+2024-03-25 12:53:19,498 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\USB_DEVICE\App\usbd_desc.h_save
+2024-03-25 12:53:19,570 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\USB_DEVICE\App\usbd_desc.h
+2024-03-25 12:53:19,587 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\USB_DEVICE\App\usbd_desc.c_save
+2024-03-25 12:53:19,697 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\USB_DEVICE\App\usbd_desc.c
+2024-03-25 12:53:19,713 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\USB_DEVICE\App\usbd_cdc_if.h_save
+2024-03-25 12:53:19,791 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\USB_DEVICE\App\usbd_cdc_if.h
+2024-03-25 12:53:19,807 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\USB_DEVICE\App\usbd_cdc_if.c_save
+2024-03-25 12:53:19,916 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\USB_DEVICE\App\usbd_cdc_if.c
+2024-03-25 12:53:19,948 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\Core\Src\stm32f4xx_it.c_save
+2024-03-25 12:53:20,173 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\Core\Src\stm32f4xx_it.c
+2024-03-25 12:53:20,182 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\Core\Inc\stm32f4xx_it.h_save
+2024-03-25 12:53:20,296 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\Core\Inc\stm32f4xx_it.h
+2024-03-25 12:53:20,329 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\Core\Src\stm32f4xx_hal_msp.c_save
+2024-03-25 12:53:20,498 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\Core\Src\stm32f4xx_hal_msp.c
+2024-03-25 12:53:20,504 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\MXTmpFiles\system.tmp_save
+2024-03-25 12:53:20,581 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\MXTmpFiles\system.tmp
+2024-03-25 12:53:20,607 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\Core\Inc\stm32f4xx_hal_conf.h_save
+2024-03-25 12:53:20,731 [INFO] CodeEngine:335 - Generated code: C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\Core\Inc\stm32f4xx_hal_conf.h
+2024-03-25 12:53:20,796 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\Core\Inc\main.h_save
+2024-03-25 12:53:20,926 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\Core\Inc\main.h
+2024-03-25 12:53:20,944 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\Core\Src\main.c_save
+2024-03-25 12:53:21,106 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\ModoADCSincrono\Core\Src\main.c
+2024-03-25 12:53:21,881 [INFO] ProjectBuilder:3076 - Time for Copy HAL[1] : 291mS.
+2024-03-25 12:53:21,891 [INFO] ProjectBuilder:4485 - Project Generator version: 4.2.0-B44
+2024-03-25 12:53:22,272 [INFO] ConfigFileManager:1495 - The Die is : DIE431
+2024-03-25 12:53:24,354 [INFO] ProjectBuilder:4747 - Time for Generating toolchain IDE Files: 2463mS.
+2024-03-25 12:53:24,355 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 1mS.
+2024-03-25 12:53:24,365 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 1mS.
