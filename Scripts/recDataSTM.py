@@ -44,7 +44,7 @@ def update(frame):
         ax.autoscale_view()
         
         # Update frequency text
-        freq_text.set_text(f'Frequency: {frequency:.2f} Hz')
+        freq_text.set_text(f'Data Points Frequency: {frequency:.2f} Hz')
     
     return line,
 
@@ -64,7 +64,7 @@ ser = init_serial(port, baudrate)
 # Initialize plot
 fig, ax = plt.subplots()
 ax.set_xlabel('Index')
-ax.set_ylabel('Value')
+ax.set_ylabel('Volts')
 ax.set_title('Real-Time Data Plot')
 
 # Set the y-axis limit to 4.0
@@ -83,7 +83,7 @@ ani = FuncAnimation(fig, update, frames=None, interval=10)
 
 # Create a slider to change max_data_points
 slider_ax = plt.axes([0.93, 0.3, 0.03, 0.35], facecolor='red')  # Define slider position and size
-slider = Slider(slider_ax, 'Max Points', 2, 200, valinit=max_data_points, color='lightgreen', orientation='vertical')
+slider = Slider(slider_ax, 'H', 2, 200, valinit=max_data_points, color='lightgreen', orientation='vertical')
 slider.on_changed(update_max_data_points)  # Set slider update action
 
 plt.show()
