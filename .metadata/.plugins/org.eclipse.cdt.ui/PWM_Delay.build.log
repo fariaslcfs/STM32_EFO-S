@@ -1,0 +1,40 @@
+20:03:01 **** Incremental Build of configuration Debug for project PWM_Delay ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:132:44: warning: format '%d' expects argument of type 'int', but argument 4 has type 'double' [-Wformat=]
+  132 |                 sprintf(buffer, "%Counts: %d\r\nVolts: %.2f\r\n", adcValue, volts);
+      |                                           ~^                                ~~~~~
+      |                                            |                                |
+      |                                            int                              double
+      |                                           %f
+../Core/Src/main.c:132:59: warning: format '%f' expects a matching 'double' argument [-Wformat=]
+  132 |                 sprintf(buffer, "%Counts: %d\r\nVolts: %.2f\r\n", adcValue, volts);
+      |                                                        ~~~^
+      |                                                           |
+      |                                                           double
+../Core/Src/main.c:133:33: warning: pointer targets in passing argument 1 of 'CDC_Transmit_FS' differ in signedness [-Wpointer-sign]
+  133 |                 CDC_Transmit_FS(buffer, sizeof(buffer));
+      |                                 ^~~~~~
+      |                                 |
+      |                                 char *
+../Core/Src/main.c:66:41: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+   66 | extern uint8_t CDC_Transmit_FS(uint8_t *Buf, uint16_t Len);
+      |                                ~~~~~~~~~^~~
+../Core/Src/main.c:115:20: warning: 'RET' is used uninitialized [-Wuninitialized]
+  115 |                 if (RET == HAL_OK){
+      |                    ^
+arm-none-eabi-gcc -o "PWM_Delay.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\ACER\STM32CubeIDE\workspace_1.14.1\PWM_Delay\STM32F411CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PWM_Delay.map" -Wl,--gc-sections -static -u_printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PWM_Delay.elf
+ 
+arm-none-eabi-size  PWM_Delay.elf 
+arm-none-eabi-objdump -h -S PWM_Delay.elf  > "PWM_Delay.list"
+   text	   data	    bss	    dec	    hex	filename
+  52760	    736	   9264	  62760	   f528	PWM_Delay.elf
+Finished building: default.size.stdout
+ 
+Finished building: PWM_Delay.list
+ 
+
+20:03:03 Build Finished. 0 errors, 4 warnings. (took 2s.58ms)
+
