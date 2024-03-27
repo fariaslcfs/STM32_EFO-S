@@ -7,6 +7,10 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\fariaslcfs\Downloads\drive-download-20240326T125047Z-001\PWM_Delay"/>
+			<item value="C:\Users\fariaslcfs\Downloads\drive-download-20240326T125047Z-001\ModoADCSincrono"/>
+			<item value="C:\Users\fariaslcfs\Downloads\drive-download-20240326T125047Z-001\ADCDCAExternalInterrupt"/>
+			<item value="C:\Users\fariaslcfs\Downloads\drive-download-20240326T125047Z-001\ADCDAInternalInterrupt"/>
 			<item value="C:\Users\ACER\Downloads\STM32_EFO-S\ADCPotenciometerUSBExternalInterrupt"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
