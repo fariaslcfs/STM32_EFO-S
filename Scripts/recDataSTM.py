@@ -55,8 +55,8 @@ def update_max_data_points(val):
     data_points = deque(data_points, maxlen=max_data_points)
 
 # Initialize serial port
-port = input("Enter the communication port (default: COM16): ")
-port = port if port else "COM16"  # Set default value if empty
+port = input("Enter the communication port (default: COM5): ")
+port = port if port else "COM5"  # Set default value if empty
 baudrate = input("Enter the baudrate (default: 9600): ")
 baudrate = int(baudrate) if baudrate else 9600  # Set default value if empty
 ser = init_serial(port, baudrate)
